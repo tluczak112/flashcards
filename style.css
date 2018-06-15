@@ -1,0 +1,136 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.2;
+}
+*:focus {
+	outline: 0;
+}
+body {
+	background-color: #e6d9d1; 
+	font-family: Georgia, "Times New Roman", serif;
+    font-size: 12px;
+}
+h2 {
+	margin-top: 20px;
+	color: #663744;
+}
+#container {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 850px;
+	height: 100%;
+}
+#clickBox {
+	position: absolute;
+	top: 90px;
+	height: 500px;
+	width: 100%;
+	padding-top: 50px;
+}
+#clickBox h1,
+#clickBox h2 {
+	color: #7993ae;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+p {
+	margin: 15px 0px;
+}
+ul {
+	list-style-type: none;
+}
+
+.menu {
+	position: absolute;
+	top: 50px;
+	width: 140px;
+	height: 35px;
+	z-index: 3;
+    border: 1px solid black;
+    color: #000;
+    background-color: green;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu a {
+	display: block;
+	width: 140px;
+	height: 35px;
+	color: #000;
+}
+.menu a:hover {
+	background-color: #7993ae;
+	color: white;
+}
+#menu1, #menu1list { left: 0px; }
+#menu2, #menu2list { left: 141px; }
+#menu3, #menu3list { left: 282px; }
+#menu4, #menu4list { left: 423px; }
+#menu5, #menu5list { left: 564px; }
+#menu6, #menu6list { left: 705px; }
+
+.menulist {
+	position: absolute;
+	top: 85px;
+	width: 140px;
+	z-index: 2;
+	background-color: #f7f8fc;
+	color: #663744;
+	border: 1px solid black;
+	display: none;
+}
+.menulist a {
+	display: block;
+	width: 130px;
+	padding: 5px;
+}
+.menulist a:hover {
+	background-color: #7993ae;
+	color: white;
+}
+.card {
+	width: 500px;
+	height: 300px;
+	font-size: 22px;
+	background-color: #f7f8fc;
+	border: 2px solid #7993ae;
+	border-radius: 20px;
+	position: absolute;
+	top: 130px;
+	left: 250px;
+	text-align: center;
+}
+.card p {
+	margin-top: 120px;
+}
+input[src="prev.png"],
+input[src="flip.png"],
+input[src="next.png"] {
+	position: absolute;
+	top: 440px;
+}
+input[src="prev.png"] {
+	left: 250px;
+}
+input[src="flip.png"] {
+	left: 477px;
+}
+input[src="next.png"] {
+	left: 704px;
+}
+#sidebar {
+	font-size: 16px;
+	padding: 15px 10px 10px 10px;
+}
+#sidebar a:link,
+#sidebar a:visited {
+	color: #7993ae;
+}
+#sidebar a:hover,
+#sidebar a:active {
+	color: #b48386;
+}
